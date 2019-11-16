@@ -23,7 +23,7 @@ while user_decision == 'y':
 
     print('\n\nAlphabet in reverse order: \n')
     x = -1 
-    for i in range(122, 96, -step):  # range(122,96) -> small alphabet letters in ASCII    letter = chr(i)
+    for i in range(122, 96, -step):  # range(122,96) -> small alphabet letters in ASCII letter = chr(i)
         letter = chr(i)
         x +=1
         if x == 5:
